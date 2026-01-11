@@ -2,8 +2,8 @@ __pycache__/
 *.pyc
 .env
 venv/
-data/management/commands/matches/
+data/management/commands/matches/.
 logs/cron.log
-
+.idea
 static/
 media/

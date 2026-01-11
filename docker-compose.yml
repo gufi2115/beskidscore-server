@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    command: gunicorn beskidscore.wsgi:application --bind 0.0.0.0:8001 --workers 3
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    depends_on:
+      - cron
+      - db
+      - redis
+  cron:
+    build: .
+    command: /bin/sh -c "while true; do python manage.py runcrons; sleep 60; done"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    env_file:
+      - .env
+  db:
+    image: postgres:latest
+    restart: always
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME}
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+    ports:
+      - "5466:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

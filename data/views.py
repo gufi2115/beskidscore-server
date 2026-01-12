@@ -5,7 +5,6 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import filters
-from .fb_client import send_message
 from django.db import transaction
 
 from tasks.models import ProcessedTasksM

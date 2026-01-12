@@ -1,0 +1,596 @@
+[
+  {
+    "kolejka": 1,
+    "mecze": [
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 5,
+        "away_goals": 2,
+        "date": "1 wrze¶nia, 17:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 4,
+        "away_goals": 1,
+        "date": "31 sierpnia, 16:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 4,
+        "away_goals": 2,
+        "date": "31 sierpnia, 17:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 4,
+        "away_goals": 1,
+        "date": "1 wrze¶nia, 13:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 2,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 0,
+        "away_goals": 7,
+        "date": "8 wrze¶nia, 17:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 3,
+        "away_goals": 1,
+        "date": "7 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 1,
+        "away_goals": 3,
+        "date": "8 wrze¶nia, 17:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 9,
+        "away_goals": 3,
+        "date": "8 wrze¶nia, 17:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 3,
+    "mecze": [
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 7,
+        "away_goals": 2,
+        "date": "3 listopada, 14:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 2,
+        "away_goals": 1,
+        "date": "14 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 4,
+        "away_goals": 0,
+        "date": "16 paĽdziernika, 18:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 1,
+        "away_goals": 2,
+        "date": "10 listopada, 13:30"
+      }
+    ]
+  },
+  {
+    "kolejka": 4,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 4,
+        "away_goals": 4,
+        "date": "22 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 2,
+        "away_goals": 4,
+        "date": "22 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 6,
+        "away_goals": 1,
+        "date": "21 wrze¶nia, 17:00"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Groń Bujaków",
+        "home_goals": 0,
+        "away_goals": 5,
+        "date": "22 wrze¶nia, 16:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 5,
+    "mecze": [
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 9,
+        "away_goals": 0,
+        "date": "28 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 4,
+        "away_goals": 0,
+        "date": "28 wrze¶nia, 16:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 2,
+        "away_goals": 4,
+        "date": "28 wrze¶nia, 12:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 6,
+        "away_goals": 3,
+        "date": "28 wrze¶nia, 16:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 6,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 4,
+        "away_goals": 1,
+        "date": "6 paĽdziernika, 12:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 5,
+        "away_goals": 1,
+        "date": "6 paĽdziernika, 16:00"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 0,
+        "away_goals": 4,
+        "date": "6 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 2,
+        "away_goals": 0,
+        "date": "5 paĽdziernika, 15:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 7,
+    "mecze": [
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 6,
+        "away_goals": 2,
+        "date": "12 paĽdziernika, 12:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Groń Bujaków",
+        "home_goals": 3,
+        "away_goals": 7,
+        "date": "12 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 5,
+        "away_goals": 1,
+        "date": "13 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 1,
+        "away_goals": 7,
+        "date": "12 paĽdziernika, 15:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 8,
+    "mecze": [
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 7,
+        "away_goals": 1,
+        "date": "20 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 5,
+        "away_goals": 4,
+        "date": "19 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 1,
+        "away_goals": 1,
+        "date": "19 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 4,
+        "away_goals": 2,
+        "date": "19 paĽdziernika, 15:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 9,
+    "mecze": [
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 2,
+        "away_goals": 1,
+        "date": "27 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Groń Bujaków",
+        "home_goals": 1,
+        "away_goals": 4,
+        "date": "26 paĽdziernika, 15:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 5,
+        "away_goals": 3,
+        "date": "27 paĽdziernika, 16:00"
+      },
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 3,
+        "away_goals": 1,
+        "date": "27 paĽdziernika, 15:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 10,
+    "mecze": [
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 1,
+        "away_goals": 1,
+        "date": "5 kwietnia, 16:00"
+      },
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 0,
+        "away_goals": 11,
+        "date": "6 kwietnia, 16:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Groń Bujaków",
+        "home_goals": 1,
+        "away_goals": 5,
+        "date": "6 kwietnia, 15:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 3,
+        "away_goals": 3,
+        "date": "5 kwietnia, 16:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 11,
+    "mecze": [
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 11,
+        "away_goals": 0,
+        "date": "13 kwietnia, 15:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 6,
+        "away_goals": 1,
+        "date": "12 kwietnia, 16:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 5,
+        "away_goals": 1,
+        "date": "13 kwietnia, 16:30"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 0,
+        "away_goals": 4,
+        "date": "12 kwietnia, 11:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 12,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 1,
+        "away_goals": 4,
+        "date": "27 kwietnia, 17:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Groń Bujaków",
+        "home_goals": 2,
+        "away_goals": 3,
+        "date": "26 kwietnia, 16:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 3,
+        "away_goals": 0,
+        "date": "27 kwietnia, 17:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 2,
+        "away_goals": 4,
+        "date": "26 kwietnia, 17:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 13,
+    "mecze": [
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 5,
+        "away_goals": 1,
+        "date": "3 maja, 17:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 4,
+        "away_goals": 5,
+        "date": "3 maja, 15:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 0,
+        "away_goals": 6,
+        "date": "3 maja, 17:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 5,
+        "away_goals": 0,
+        "date": "1 maja, 13:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 14,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Groń Bujaków",
+        "home_goals": 1,
+        "away_goals": 9,
+        "date": "11 maja, 13:30"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 3,
+        "away_goals": 5,
+        "date": "11 maja, 17:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 4,
+        "away_goals": 2,
+        "date": "10 maja, 17:00"
+      },
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 2,
+        "away_goals": 0,
+        "date": "11 maja, 17:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 15,
+    "mecze": [
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 4,
+        "away_goals": 0,
+        "date": "18 maja, 17:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 1,
+        "away_goals": 2,
+        "date": "17 maja, 17:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 3,
+        "away_goals": 4,
+        "date": "17 maja, 17:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Groń Bujaków",
+        "home_goals": 2,
+        "away_goals": 1,
+        "date": "18 maja, 17:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 16,
+    "mecze": [
+      {
+        "home_team": "Centrum II Ligota",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 1,
+        "away_goals": 6,
+        "date": "25 maja, 17:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "LKS Łodygowice",
+        "home_goals": 6,
+        "away_goals": 0,
+        "date": "24 maja, 13:00"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 5,
+        "away_goals": 6,
+        "date": "24 maja, 17:00"
+      },
+      {
+        "home_team": "Iskra Rybarzowice",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 11,
+        "away_goals": 0,
+        "date": "24 maja, 17:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 17,
+    "mecze": [
+      {
+        "home_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "away_team": "Iskra Rybarzowice",
+        "home_goals": 0,
+        "away_goals": 3,
+        "date": "31 maja, 18:00"
+      },
+      {
+        "home_team": "Beskid Godziszka",
+        "away_team": "Rotuz II Bronów",
+        "home_goals": 2,
+        "away_goals": 4,
+        "date": "31 maja, 17:00"
+      },
+      {
+        "home_team": "Spójnia II Landek",
+        "away_team": "Groń Bujaków",
+        "home_goals": 1,
+        "away_goals": 3,
+        "date": "1 czerwca, 15:00"
+      },
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Sokół Buczkowice",
+        "home_goals": 2,
+        "away_goals": 2,
+        "date": "3 czerwca, 18:00"
+      }
+    ]
+  },
+  {
+    "kolejka": 18,
+    "mecze": [
+      {
+        "home_team": "LKS Łodygowice",
+        "away_team": "Centrum II Ligota",
+        "home_goals": 3,
+        "away_goals": 0,
+        "date": "7 czerwca, 15:00"
+      },
+      {
+        "home_team": "Sokół Buczkowice",
+        "away_team": "Spójnia II Landek",
+        "home_goals": 2,
+        "away_goals": 5,
+        "date": "8 czerwca, 16:00"
+      },
+      {
+        "home_team": "Groń Bujaków",
+        "away_team": "Beskid Godziszka",
+        "home_goals": 10,
+        "away_goals": 1,
+        "date": "7 czerwca, 16:00"
+      },
+      {
+        "home_team": "Rotuz II Bronów",
+        "away_team": "Zapora II Wapienica (Bielsko-Biała)",
+        "home_goals": 3,
+        "away_goals": 0,
+        "date": "7 czerwca, 17:00"
+      }
+    ]
+  }
+]

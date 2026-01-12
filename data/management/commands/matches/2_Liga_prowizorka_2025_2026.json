@@ -1,0 +1,772 @@
+[
+    {
+        "round": 1,
+        "matches": [
+            {
+                "home_team": "GKS TYCHY",
+                "away_team": "ARKA GDYNIA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-07-26",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "STAL RZESZÓW",
+                "home_score": 3,
+                "away_score": 0,
+                "Date": "2025-07-26",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ODRA OPOLE",
+                "away_team": "CHROBRY GŁOGÓW",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-07-26",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "MIEDŹ LEGNICA",
+                "away_team": "BRUK-BET TERMALICA",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2025-07-27",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "PODBESKIDZIE",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2025-07-27",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "ZNICZ PRUSZKÓW",
+                "away_team": "KOTWICA KOŁOBRZEG",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-07-27",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "POGOŃ SIEDLCE",
+                "home_score": 0,
+                "away_score": 0,
+                "Date": "2025-07-27",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "ŁKS ŁÓDŹ",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2025-07-27",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "RUCH CHORZÓW",
+                "away_team": "POLONIA WARSZAWA",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-07-28",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "matches": [
+            {
+                "home_team": "ARKA GDYNIA",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-08-02",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL RZESZÓW",
+                "away_team": "ODRA OPOLE",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-02",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "CHROBRY GŁOGÓW",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-08-02",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "BRUK-BET TERMALICA",
+                "away_team": "GÓRNIK ŁĘCZNA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-03",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "PODBESKIDZIE",
+                "away_team": "ZNICZ PRUSZKÓW",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-08-03",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "KOTWICA KOŁOBRZEG",
+                "away_team": "STAL STALOWA WOLA",
+                "home_score": 3,
+                "away_score": 2,
+                "Date": "2025-08-03",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "POGOŃ SIEDLCE",
+                "away_team": "ŁKS ŁÓDŹ",
+                "home_score": 0,
+                "away_score": 3,
+                "Date": "2025-08-03",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "WARTA POZNAŃ",
+                "away_team": "RUCH CHORZÓW",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-03",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "POLONIA WARSZAWA",
+                "away_team": "GKS TYCHY",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2025-08-04",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 3,
+        "matches": [
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "POLONIA WARSZAWA",
+                "home_score": 4,
+                "away_score": 1,
+                "Date": "2025-08-09",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "GKS TYCHY",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-08-09",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "RUCH CHORZÓW",
+                "away_team": "POGOŃ SIEDLCE",
+                "home_score": 3,
+                "away_score": 0,
+                "Date": "2025-08-10",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "ŁKS ŁÓDŹ",
+                "away_team": "KOTWICA KOŁOBRZEG",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-10",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "PODBESKIDZIE",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-08-10",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "ZNICZ PRUSZKÓW",
+                "away_team": "BRUK-BET TERMALICA",
+                "home_score": 0,
+                "away_score": 0,
+                "Date": "2025-08-10",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "CHROBRY GŁOGÓW",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-10",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "MIEDŹ LEGNICA",
+                "away_team": "STAL RZESZÓW",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-10",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ODRA OPOLE",
+                "away_team": "ARKA GDYNIA",
+                "home_score": 1,
+                "away_score": 3,
+                "Date": "2025-08-11",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 4,
+        "matches": [
+            {
+                "home_team": "POLONIA WARSZAWA",
+                "away_team": "ODRA OPOLE",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2025-08-16",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ARKA GDYNIA",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2025-08-16",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "STAL RZESZÓW",
+                "away_team": "GÓRNIK ŁĘCZNA",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-08-17",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "CHROBRY GŁOGÓW",
+                "away_team": "ZNICZ PRUSZKÓW",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-08-17",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "BRUK-BET TERMALICA",
+                "away_team": "STAL STALOWA WOLA",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-08-17",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "PODBESKIDZIE",
+                "away_team": "ŁKS ŁÓDŹ",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-08-17",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "KOTWICA KOŁOBRZEG",
+                "away_team": "RUCH CHORZÓW",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-08-17",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "POGOŃ SIEDLCE",
+                "away_team": "GKS TYCHY",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-17",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "WARTA POZNAŃ",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 2,
+                "away_score": 3,
+                "Date": "2025-08-18",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 5,
+        "matches": [
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "POGOŃ SIEDLCE",
+                "home_score": 3,
+                "away_score": 0,
+                "Date": "2025-08-23",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "GKS TYCHY",
+                "away_team": "KOTWICA KOŁOBRZEG",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-23",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "RUCH CHORZÓW",
+                "away_team": "PODBESKIDZIE",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-08-24",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "ŁKS ŁÓDŹ",
+                "away_team": "BRUK-BET TERMALICA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-24",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "CHROBRY GŁOGÓW",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2025-08-24",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "ZNICZ PRUSZKÓW",
+                "away_team": "STAL RZESZÓW",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-08-24",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "ARKA GDYNIA",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-08-24",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "MIEDŹ LEGNICA",
+                "away_team": "POLONIA WARSZAWA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-24",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ODRA OPOLE",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-25",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 6,
+        "matches": [
+            {
+                "home_team": "WARTA POZNAŃ",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-08-30",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "POLONIA WARSZAWA",
+                "away_team": "GÓRNIK ŁĘCZNA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-08-30",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ARKA GDYNIA",
+                "away_team": "ZNICZ PRUSZKÓW",
+                "home_score": 3,
+                "away_score": 0,
+                "Date": "2025-08-31",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "STAL RZESZÓW",
+                "away_team": "STAL STALOWA WOLA",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-08-31",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "CHROBRY GŁOGÓW",
+                "away_team": "ŁKS ŁÓDŹ",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-08-31",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "BRUK-BET TERMALICA",
+                "away_team": "RUCH CHORZÓW",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-08-31",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "PODBESKIDZIE",
+                "away_team": "GKS TYCHY",
+                "home_score": 0,
+                "away_score": 0,
+                "Date": "2025-08-31",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "KOTWICA KOŁOBRZEG",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 1,
+                "away_score": 3,
+                "Date": "2025-08-31",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "POGOŃ SIEDLCE",
+                "away_team": "ODRA OPOLE",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-09-01",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 7,
+        "matches": [
+            {
+                "home_team": "POGOŃ SIEDLCE",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-09-13",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ODRA OPOLE",
+                "away_team": "KOTWICA KOŁOBRZEG",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-09-13",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "PODBESKIDZIE",
+                "home_score": 4,
+                "away_score": 2,
+                "Date": "2025-09-14",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "GKS TYCHY",
+                "away_team": "BRUK-BET TERMALICA",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-09-14",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "RUCH CHORZÓW",
+                "away_team": "CHROBRY GŁOGÓW",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2025-09-14",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "ŁKS ŁÓDŹ",
+                "away_team": "STAL RZESZÓW",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-09-14",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "ARKA GDYNIA",
+                "home_score": 0,
+                "away_score": 3,
+                "Date": "2025-09-14",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "ZNICZ PRUSZKÓW",
+                "away_team": "POLONIA WARSZAWA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-09-14",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-09-15",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 8,
+        "matches": [
+            {
+                "home_team": "MIEDŹ LEGNICA",
+                "away_team": "POGOŃ SIEDLCE",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-09-20",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-09-20",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "POLONIA WARSZAWA",
+                "away_team": "STAL STALOWA WOLA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-09-21",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "ARKA GDYNIA",
+                "away_team": "ŁKS ŁÓDŹ",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2025-09-21",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL RZESZÓW",
+                "away_team": "RUCH CHORZÓW",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-09-21",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "CHROBRY GŁOGÓW",
+                "away_team": "GKS TYCHY",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-09-21",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "BRUK-BET TERMALICA",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 1,
+                "away_score": 3,
+                "Date": "2025-09-21",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "PODBESKIDZIE",
+                "away_team": "ODRA OPOLE",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-09-21",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "KOTWICA KOŁOBRZEG",
+                "away_team": "ZNICZ PRUSZKÓW",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-09-22",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 9,
+        "matches": [
+            {
+                "home_team": "KOTWICA KOŁOBRZEG",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-09-27",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ZNICZ PRUSZKÓW",
+                "away_team": "GÓRNIK ŁĘCZNA",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2025-09-27",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "POLONIA WARSZAWA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-09-28",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "WARTA POZNAŃ",
+                "away_team": "PODBESKIDZIE",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-09-28",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "POGOŃ SIEDLCE",
+                "away_team": "BRUK-BET TERMALICA",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2025-09-28",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "ODRA OPOLE",
+                "away_team": "CHROBRY GŁOGÓW",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-09-28",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "STAL RZESZÓW",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2025-09-28",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "GKS TYCHY",
+                "away_team": "ARKA GDYNIA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-09-28",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "RUCH CHORZÓW",
+                "away_team": "ŁKS ŁÓDŹ",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-09-29",
+                "Time": "20:30"
+            }
+        ]
+    },
+    {
+        "round": 10,
+        "matches": [
+            {
+                "home_team": "ARKA GDYNIA",
+                "away_team": "RUCH CHORZÓW",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-10-04",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ŁKS ŁÓDŹ",
+                "away_team": "GKS TYCHY",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2025-10-04",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "STAL RZESZÓW",
+                "away_team": "ODRA OPOLE",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-10-05",
+                "Time": "14:00"
+            },
+            {
+                "home_team": "CHROBRY GŁOGÓW",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 0,
+                "away_score": 3,
+                "Date": "2025-10-05",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "BRUK-BET TERMALICA",
+                "away_team": "WARTA POZNAŃ",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-10-05",
+                "Time": "12:30"
+            },
+            {
+                "home_team": "PODBESKIDZIE",
+                "away_team": "POGOŃ SIEDLCE",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-10-05",
+                "Time": "18:00"
+            },
+            {
+                "home_team": "STAL STALOWA WOLA",
+                "away_team": "MIEDŹ LEGNICA",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2025-10-05",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "POLONIA WARSZAWA",
+                "away_team": "ZNICZ PRUSZKÓW",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-10-05",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "GÓRNIK ŁĘCZNA",
+                "away_team": "KOTWICA KOŁOBRZEG",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-10-06",
+                "Time": "20:30"
+            }
+        ]
+    }
+]

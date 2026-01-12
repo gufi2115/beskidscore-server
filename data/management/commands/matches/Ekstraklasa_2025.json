@@ -1,0 +1,291 @@
+[
+    {
+        "round": 1,
+        "matches": [
+            {
+                "home_team": "LEGIA WARSZAWA",
+                "away_team": "RAKÓW CZĘSTOCHOWA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2024-07-19",
+                "Time": "20:15"
+            },
+            {
+                "home_team": "LECH POZNAŃ",
+                "away_team": "GÓRNIK ZABRZE",
+                "home_score": 3,
+                "away_score": 0,
+                "Date": "2024-07-20",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "POGOŃ SZCZECIN",
+                "away_team": "JAGIELLONIA BIAŁYSTOK",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2024-07-20",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ŚLĄSK WROCŁAW",
+                "away_team": "PIAST GLIWICE",
+                "home_score": 0,
+                "away_score": 2,
+                "Date": "2024-07-21",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "CRACOVIA",
+                "home_score": 3,
+                "away_score": 2,
+                "Date": "2024-07-21",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL MIELEC",
+                "away_team": "ZAGŁĘBIE LUBIN",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2024-07-22",
+                "Time": "19:00"
+            },
+            {
+                "home_team": "LEGIA WARSZAWA",
+                "away_team": "POGOŃ SZCZECIN",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2025-07-18",
+                "Time": "20:15"
+            },
+            {
+                "home_team": "LECH POZNAŃ",
+                "away_team": "RAKÓW CZĘSTOCHOWA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-07-19",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "JAGIELLONIA BIAŁYSTOK",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 3,
+                "away_score": 2,
+                "Date": "2025-07-19",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ŚLĄSK WROCŁAW",
+                "away_team": "GÓRNIK ZABRZE",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2025-07-20",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "PIAST GLIWICE",
+                "away_team": "CRACOVIA",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2025-07-20",
+                "Time": "17:30"
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "matches": [
+            {
+                "home_team": "RAKÓW CZĘSTOCHOWA",
+                "away_team": "CRACOVIA",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2024-07-26",
+                "Time": "20:15"
+            },
+            {
+                "home_team": "GÓRNIK ZABRZE",
+                "away_team": "POGOŃ SZCZECIN",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2024-07-27",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "JAGIELLONIA BIAŁYSTOK",
+                "away_team": "LEGIA WARSZAWA",
+                "home_score": 2,
+                "away_score": 3,
+                "Date": "2024-07-27",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "PIAST GLIWICE",
+                "away_team": "LECH POZNAŃ",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2024-07-28",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "ŚLĄSK WROCŁAW",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2024-07-28",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ZAGŁĘBIE LUBIN",
+                "away_team": "STAL MIELEC",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2024-07-29",
+                "Time": "19:00"
+            }
+        ]
+    },
+    {
+        "round": 3,
+        "matches": [
+            {
+                "home_team": "LEGIA WARSZAWA",
+                "away_team": "WISŁA KRAKÓW",
+                "home_score": 4,
+                "away_score": 1,
+                "Date": "2024-08-02",
+                "Time": "20:15"
+            },
+            {
+                "home_team": "LECH POZNAŃ",
+                "away_team": "RAKÓW CZĘSTOCHOWA",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2024-08-03",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "POGOŃ SZCZECIN",
+                "away_team": "PIAST GLIWICE",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2024-08-03",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "ŚLĄSK WROCŁAW",
+                "away_team": "JAGIELLONIA BIAŁYSTOK",
+                "home_score": 1,
+                "away_score": 2,
+                "Date": "2024-08-04",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "CRACOVIA",
+                "away_team": "GÓRNIK ZABRZE",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2024-08-04",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "STAL MIELEC",
+                "away_team": "ZAGŁĘBIE LUBIN",
+                "home_score": 0,
+                "away_score": 1,
+                "Date": "2024-08-05",
+                "Time": "19:00"
+            }
+        ]
+    },
+    {
+        "round": 4,
+        "matches": [
+            {
+                "home_team": "RAKÓW CZĘSTOCHOWA",
+                "away_team": "POGOŃ SZCZECIN",
+                "home_score": 1,
+                "away_score": 1,
+                "Date": "2024-08-09",
+                "Time": "20:15"
+            },
+            {
+                "home_team": "GÓRNIK ZABRZE",
+                "away_team": "LEGIA WARSZAWA",
+                "home_score": 0,
+                "away_score": 3,
+                "Date": "2024-08-10",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "JAGIELLONIA BIAŁYSTOK",
+                "away_team": "LECH POZNAŃ",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2024-08-10",
+                "Time": "20:00"
+            },
+            {
+                "home_team": "PIAST GLIWICE",
+                "away_team": "ŚLĄSK WROCŁAW",
+                "home_score": 2,
+                "away_score": 0,
+                "Date": "2024-08-11",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "WISŁA KRAKÓW",
+                "away_team": "STAL MIELEC",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2024-08-11",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "ZAGŁĘBIE LUBIN",
+                "away_team": "CRACOVIA",
+                "home_score": 2,
+                "away_score": 1,
+                "Date": "2024-08-12",
+                "Time": "19:00"
+            }
+        ]
+    },
+    {
+        "round": 28,
+        "matches": [
+            {
+                "home_team": "LEGIA WARSZAWA",
+                "away_team": "LECH POZNAŃ",
+                "home_score": 1,
+                "away_score": 0,
+                "Date": "2025-04-05",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "RAKÓW CZĘSTOCHOWA",
+                "away_team": "JAGIELLONIA BIAŁYSTOK",
+                "home_score": 2,
+                "away_score": 2,
+                "Date": "2025-04-06",
+                "Time": "15:00"
+            },
+            {
+                "home_team": "POGOŃ SZCZECIN",
+                "away_team": "ŚLĄSK WROCŁAW",
+                "home_score": 3,
+                "away_score": 1,
+                "Date": "2025-04-06",
+                "Time": "17:30"
+            },
+            {
+                "home_team": "CRACOVIA",
+                "away_team": "PIAST GLIWICE",
+                "home_score": 0,
+                "away_score": 0,
+                "Date": "2025-04-07",
+                "Time": "19:00"
+            }
+        ]
+    }
+]

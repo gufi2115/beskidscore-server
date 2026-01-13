@@ -50,46 +50,6 @@ class Command(BaseCommand):
         else:
             self.stdout.write("You didn`t choose league")
 
-    # def update_league(self, league, league_info_results):
-    #     league = "_".join(league.split())
-    #     a = 0
-    #     with open(f'data/management/commands/matches/{league}_2025_2026.json', 'r', encoding='utf-8') as f:
-    #         season = json.load(f)
-    #         season.pop(-1) if "".join(list(season[-1].keys())) == 'teams' else season
-    #     for round in season:
-    #         match_number = 0
-    #         for match in round['matches']:
-    #             match_day = datetime.strptime(f'{match["Date"]} {match["Time"]}', '%Y-%m-%d %H:%M:%S')
-    #             current_day = datetime.now()
-    #             if current_day > match_day:
-    #                 matches = league_info_results[a]['matches']
-    #                 match_score = matches[match_number]
-    #
-    #                 match_date_db = timezone.make_aware(match_day)
-    #                 home_team_obj = TeamM.objects.get(name=match['home_team'])
-    #                 away_team_obj = TeamM.objects.get(name=match['away_team'])
-    #                 match_obj = MatchM.objects.get(home_team=home_team_obj.id, away_team=away_team_obj.id,
-    #                                                date=match_date_db)
-    #
-    #                 if match_score['scores']:
-    #                     match['home_score'] = int(match_score['scores']['fullTime'].split(':')[0])
-    #                     match['away_score'] = int(match_score['scores']['fullTime'].split(':')[1])
-    #                     match['Date'] = match_score['dateTime'].split('T')[0]
-    #                     match['Time'] = match_score['dateTime'].split('T')[1]
-    #
-    #                     match_obj.home_score = match['home_score']
-    #                     match_obj.away_score = match['away_score']
-    #                     match_day = datetime.strptime(f'{match["Date"]} {match["Time"]}', '%Y-%m-%d %H:%M:%S')
-    #                     match_date_db = timezone.make_aware(match_day)
-    #                     match_obj.date = match_date_db
-    #                     match_obj.save()
-    #
-    #             match_number += 1
-    #         a += 1
-    #
-    #     with open(f'data/management/commands/matches/{league}_2025_2026.json', 'w', encoding='utf-8') as f:
-    #         json.dump(season, f, ensure_ascii=False, indent=4)
-
     def create_json_with_league(self, rounds, league_info_results, spring_round):
         json_file = []
         teams = []

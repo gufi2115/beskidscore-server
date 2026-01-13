@@ -2,7 +2,9 @@ version: '3.8'
 services:
   web:
     build: .
-    command: gunicorn beskidscore.wsgi:application --bind 0.0.0.0:8001 --workers 3
+    command:
+    - python manage.py migrate
+    - gunicorn beskidscore.wsgi:application --bind 0.0.0.0:8001 --workers 3
     volumes:
       - .:/app
       - ./logs:/app/logs
@@ -31,9 +33,9 @@ services:
       POSTGRES_USER: ${DATABASE_USER}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
     ports:
-      - "5436:5432"
+      - "5433:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql
+      - postgres_data:/var/lib/postgresql/
 
 volumes:
   postgres_data:

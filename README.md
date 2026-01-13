@@ -41,6 +41,7 @@ https://www.youtube.com/watch?v=LWJWx9K0rVI
 ## Instalacja
 
 ```bash
+  git clone <git repo>
   cd beskidscore-server/
   nano .env
   docker compose up --build

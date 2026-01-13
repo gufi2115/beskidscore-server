@@ -92,54 +92,6 @@ def update_match(request, match_id=None):
         return render(request, 'update_match.html', {'match': match})
     return HttpResponse("Match is not live", status=403)
 
-#
-# FB_VERIFY_TOKEN = settings.FB_VERIFY_TOKEN
-#
-# class MessengerWebhookView(APIView):
-#     authentication_classes = []
-#     permission_classes = []
-#
-#     def get(self, request):
-#         verify_token = request.GET.get("hub.verify_token")
-#         challenge = request.GET.get("hub.challenge")
-#
-#         if verify_token == FB_VERIFY_TOKEN:
-#             return HttpResponse(challenge)
-#
-#         return HttpResponse("Invalid verification token", status=403)
-#
-#     def post(self, request):
-#         data = request.data
-#
-#         for entry in data.get("entry", []):
-#             for messaging in entry.get("messaging", []):
-#                 sender_id = messaging["sender"]["id"]
-#
-#                 if "message" in messaging and "text" in messaging["message"]:
-#                     live_matches = MatchM.objects.filter(status="LIVE")
-#                     matches = [
-#                         {
-#                             "id": match.id,
-#                             "match": f"{match.home_team.name} vs {match.away_team.name}",
-#                         }
-#                         for match in live_matches
-#                     ]
-#
-#                     buttons = [
-#                         {
-#                             "type": "web_url",
-#                             "url": f"https://api.beskidscore.pl/api/update_match/{match['id']}/",
-#                             "title": match["match"],
-#                             "webview_height_ratio": "compact",
-#                             # "messenger_extensions": "true",
-#                         }
-#                         for match in matches
-#                     ]
-#
-#                     send_message(sender_id, buttons)
-#
-#         return Response({"status": "ok"})
-
 
 class CSVFileViewSet(mixins.CreateModelMixin, viewsets.GenericViewSet):
     queryset = CSVLeagueFilesM.objects.all()

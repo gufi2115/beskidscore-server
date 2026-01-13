@@ -40,22 +40,17 @@ class Command(BaseCommand):
         """Update a single standing based on match results"""
         self.stdout.write(f'Updating {standing}...')
         print(standing.league, standing.season)
-        # Get all finished matches for this league/season
         matches = MatchM.objects.filter(
             Q(league=standing.league),
             Q(season=standing.season),
             Q(status='FINISHED') | Q(status='LIVE'),
         )
-        
-        # Get all teams that have played in this league/season
         team_ids = set()
         for match in matches:
             team_ids.add(match.home_team.id)
             team_ids.add(match.away_team.id)
         
         teams = TeamM.objects.filter(id__in=team_ids)
-        
-        # Calculate standings for each team
         team_stats = {}
         for team in teams:
             stats = {
@@ -69,8 +64,6 @@ class Command(BaseCommand):
                 'points': 0
             }
 
-            
-            # Calculate stats from matches
             home_matches = matches.filter(home_team=team)
             away_matches = matches.filter(away_team=team)
 
@@ -105,19 +98,12 @@ class Command(BaseCommand):
                         stats['lost'] += 1
             
             team_stats[team.id] = stats
-
-        # Sort teams by points (and goal difference as tiebreaker)
         sorted_teams = sorted(
             team_stats.values(),
             key=lambda x: (-x['points'], -(x['goals_for'] - x['goals_against']), -x['goals_for']),
         )
-        
-        # Update standing entries
         with transaction.atomic():
-            # Delete existing entries
             StandingEntryM.objects.filter(standing=standing).delete()
-            
-            # Create new entries
             for position, stats in enumerate(sorted_teams, 1):
                 StandingEntryM.objects.create(
                     standing=standing,

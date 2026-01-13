@@ -16,8 +16,8 @@ class Command(BaseCommand):
         with open(json_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         with transaction.atomic():
-            league = LeagueM.objects.get(name='B Klasa Bielsko-Biała', id=11)
-            season = SeasonM.objects.get(year='2025', name='2025/2026', season_years='2025/2026', league=league, id=11)
+            league = LeagueM.objects.get(name='B Klasa Bielsko-Biała')
+            season = SeasonM.objects.get(year='2025', name='2025/2026', season_years='2025/2026', league=league)
 
             for round_info in data:
                 round_name = round_info["round"]

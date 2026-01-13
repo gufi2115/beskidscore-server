@@ -6,7 +6,7 @@ import os
 class Command(BaseCommand):
     def handle(self, *args, **options):
         current_dir = os.path.dirname(__file__)
-        json_path = os.path.join(current_dir, 'matches/Klasa_B_2025_2026.json')
+        json_path = os.path.join(current_dir, 'matches/Klasa_okręgowa_2025_2026.json')
 
         with open(json_path,'r', encoding='UTF-8') as json_file:
             json_data = json.load(json_file)

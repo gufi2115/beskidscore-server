@@ -13,8 +13,8 @@ class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = BlogM
         fields = ['id', 'title', 'content', 'featured_image', 'excerpt', 'image',
-                  'author_id','author_name', 'slug', 'updated_at', 'created_at', 'published', 'categories']
-        read_only_fields = ('created_at', 'updated_at', 'slug', 'author_id', 'author_name')
+                  'author_id','author_name', 'slug', 'updated_at', 'created_at', 'published', 'categories', 'is_deleted']
+        read_only_fields = ('created_at', 'updated_at', 'slug', 'author_id', 'author_name', 'is_deleted')
         optional_fields = ('categories',)
 
 

@@ -1,15 +1,11 @@
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from django.conf.urls.static import static
 from django.urls import include, path
 from rest_framework import routers
 
-from .views import BlogMViewSet, CategoriesViewSet
-import beskidscore.settings as settings
+from .views import BlogMViewSet, CategoriesViewSet, PhotoViewsSet
 
 router = routers.DefaultRouter()
 router.register(r'blog', BlogMViewSet, basename='blog')
 router.register(r'categories', CategoriesViewSet, basename='categories')
-
-
+router.register(r'blog/photo', PhotoViewsSet, basename='photo')
 
 urlpatterns = [path('',include(router.urls))]

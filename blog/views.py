@@ -1,5 +1,3 @@
-from http.client import responses
-
 from rest_framework import mixins, viewsets, status
 from .serializers import BlogSerializer,CategoriesSerializer
 from .models import BlogM, CategoriesM
@@ -7,8 +5,10 @@ from django_filters.rest_framework import DjangoFilterBackend
 from .filters import BlogFilter
 from .permission import AdminOrReadOnlyPermission
 from rest_framework.response import Response
-from beskidscore.settings import MICROSERVICE_TO_SAVE_FILE, MICROSERVICE_TO_SAVE_FILE_API_KEY
 import requests
+from beskidscore.settings import MICROSERVICE_TO_SAVE_FILE_API_KEY, MICROSERVICE_TO_SAVE_FILE
+from django.http import FileResponse
+
 
 class BlogMViewSet(mixins.ListModelMixin,
                    mixins.RetrieveModelMixin,
@@ -40,6 +40,18 @@ class BlogMViewSet(mixins.ListModelMixin,
             return Response(status=status.HTTP_204_NO_CONTENT)
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
+
+
+class PhotoViewsSet(BlogMViewSet):
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        serializer = self.get_serializer(instance=instance)
+        headers = {'Authorization': f'api-key {MICROSERVICE_TO_SAVE_FILE_API_KEY}'}
+        response = requests.get(url=serializer.data['featured_image'], headers=headers, stream=True)
+        if response.status_code == 200:
+            file_response = FileResponse(response.raw, content_type=response.headers['content-type'])
+            return file_response
+        return Response(status=status.HTTP_404_NOT_FOUND)
 
 
 class CategoriesViewSet(mixins.ListModelMixin,

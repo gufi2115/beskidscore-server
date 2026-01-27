@@ -34,6 +34,7 @@ DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '100.64.0.1', '51.38.71.25', 'beskidscore.pl', 'www.beskidscore.pl',
                  'api.beskidscore.pl', 'www.api.beskidscore.pl']
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -70,6 +71,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'beskidscore.urls'
+
+
+MICROSERVICE_TO_SAVE_FILE = 'http://100.64.0.1:6767/api/file/'
+MICROSERVICE_TO_SAVE_FILE_API_KEY = os.getenv('API_KEY')
 
 
 CORS_ALLOW_CREDENTIALS = True

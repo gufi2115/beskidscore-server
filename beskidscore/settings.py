@@ -75,7 +75,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'beskidscore.urls'
 
 
-MICROSERVICE_TO_SAVE_FILE = 'http://100.64.0.1:6767/api/file/'
+MICROSERVICE_TO_SAVE_FILE = f'http://{os.getenv("MICROSERVICE_HOST")}/api/file/'
 MICROSERVICE_TO_SAVE_FILE_API_KEY = os.getenv('API_KEY')
 
 

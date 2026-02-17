@@ -1,0 +1,5 @@
+from filesystemlib.filesystem import FileSystem
+from beskidscore.settings import MICROSERVICE_TO_SAVE_FILE, MICROSERVICE_TO_SAVE_FILE_API_KEY
+
+
+file_system = FileSystem(url=MICROSERVICE_TO_SAVE_FILE, api_key=MICROSERVICE_TO_SAVE_FILE_API_KEY)

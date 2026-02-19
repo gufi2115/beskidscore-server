@@ -8,7 +8,7 @@ class BlogFilter(filters.FilterSet):
 
     class Meta:
         model = BlogM
-        fields = ('published', 'is_deleted')
+        fields = ('published',)
 
 
     def category_filter(self, queryset, name, value):

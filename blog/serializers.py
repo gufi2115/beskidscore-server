@@ -1,18 +1,17 @@
 from django.db import transaction
 from rest_framework import serializers
-from .models import BlogM, CategoriesM
+from .models import BlogM, CategoriesM, BlogAttachmentM
 from unidecode import unidecode
-from .helpers import file_system
+from filesystempack.drf_filesystem.serializers import FileSerializer
 
 class BlogSerializer(serializers.ModelSerializer):
     author_name = serializers.CharField(source='author.username', allow_blank=True, read_only=True)
-    image = serializers.FileField(write_only=True, required=True)
 
     class Meta:
         model = BlogM
-        fields = ['id', 'title', 'content', 'excerpt', 'image',
-                  'author_id','author_name', 'slug', 'updated_at', 'created_at', 'published', 'categories', 'is_deleted']
-        read_only_fields = ('created_at', 'updated_at', 'slug', 'author_id', 'author_name', 'is_deleted')
+        fields = ['id', 'title', 'content', 'excerpt',
+                  'author_id','author_name', 'slug', 'updated_at', 'created_at', 'published', 'categories']
+        read_only_fields = ('created_at', 'updated_at', 'slug', 'author_id', 'author_name')
         optional_fields = ('categories',)
 
     def validate(self, attrs):
@@ -32,14 +31,7 @@ class BlogSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         user = self.context['request'].user
         validated_data['author'] = user
-        image = validated_data.pop('image')
-        uuid = file_system.save_file(file=image, content_type=image.content_type)
-        status = file_system.status
-        if status == 201:
-            validated_data['image_uuid'] = uuid
-            return super().create(validated_data)
-        else:
-            raise Exception(status)
+        return super().create(validated_data)
 
     def update(self, instance, validated_data):
         with transaction.atomic():
@@ -48,6 +40,15 @@ class BlogSerializer(serializers.ModelSerializer):
                 for category in categories:
                     instance.categories.add(category)
             return super().update(instance, validated_data)
+
+
+class BlogAttachmentSerializer(FileSerializer):
+    class Meta:
+        model = BlogAttachmentM
+        fields =FileSerializer.Meta.fields + ('id', 'blog', 'is_headline')
+        read_only_fields = FileSerializer.Meta.read_only_fields + ('id',)
+        extra_kwargs = {'blog': {'required': False}, 'is_headline': {'required': False}}
+
 
 class CategoriesSerializer(serializers.ModelSerializer):
     class Meta:

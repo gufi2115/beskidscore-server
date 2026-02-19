@@ -52,13 +52,14 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+    'filesystempack.drf_filesystem',
     # Apps
     'data',
     'blog',
     'users',
     'tasks'
 ]
-
+from rest_framework_simplejwt.token_blacklist import apps
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -75,8 +76,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'beskidscore.urls'
 
 
-MICROSERVICE_TO_SAVE_FILE = f'http://{os.getenv("MICROSERVICE_HOST")}/api/file/'
-MICROSERVICE_TO_SAVE_FILE_API_KEY = os.getenv('API_KEY')
+FILES_MICROSERVICE_URL = f'http://{os.getenv("MICROSERVICE_HOST")}/api/file/'
+FILES_MICROSERVICE_API_KEY = os.getenv('API_KEY')
 
 
 CORS_ALLOW_CREDENTIALS = True

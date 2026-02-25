@@ -50,6 +50,14 @@ class BlogAttachmentSerializer(FileSerializer):
         extra_kwargs = {'blog': {'required': False}, 'is_headline': {'required': False}}
 
 
+    def create(self, validated_data):
+        with transaction.atomic():
+            blog = validated_data['blog']
+            if validated_data['is_headline'] and len(attachment_obj := BlogAttachmentM.objects.filter(is_headline=True, blog_id=blog)) > 0:
+                attachment_obj[0].is_headline = False
+                attachment_obj[0].save()
+        return super().create(validated_data)
+
 class CategoriesSerializer(serializers.ModelSerializer):
     class Meta:
         model = CategoriesM

@@ -39,4 +39,4 @@ class BlogAttachmentM(FileInfoM):
     blog = models.ForeignKey(BlogM, on_delete=models.CASCADE, related_name='blog')
 
     def __str__(self):
-        return self.blog
+        return str(self.file_uuid)

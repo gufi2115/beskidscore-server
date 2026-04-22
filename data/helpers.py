@@ -21,8 +21,9 @@ def update_league(league, league_info_results, league_obj, season_obj):
             current_day = datetime.now()
             if a < len(league_info_results):
                 matches = league_info_results[a]['matches']
+                if match_number >= len(matches):
+                    continue
                 match_score = matches[match_number]
-
                 round_obj = RoundM.objects.get(round_number=match_score['queue'], league_id=league_obj[0].id, season_id=season_obj[0].id)
                 matches_obj = MatchM.objects.filter(league_id=league_obj[0].id, season_id=season_obj[0].id,
                                                round_id=round_obj.id)

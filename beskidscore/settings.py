@@ -34,6 +34,7 @@ DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '100.64.0.1', '51.38.71.25', 'beskidscore.pl', 'www.beskidscore.pl',
                  'api.beskidscore.pl', 'www.api.beskidscore.pl']
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -49,13 +50,14 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+    'filesystempack.drf_filesystem',
     # Apps
     'data',
     'blog',
     'users',
     'tasks'
 ]
-
+from rest_framework_simplejwt.token_blacklist import apps
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -70,6 +72,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'beskidscore.urls'
+
+
+FILES_MICROSERVICE_URL = f'http://{os.getenv("MICROSERVICE_HOST")}/api/file/'
+FILES_MICROSERVICE_API_KEY = os.getenv('API_KEY')
 
 
 CORS_ALLOW_CREDENTIALS = True
@@ -121,14 +127,6 @@ CRON_CLASSES = [
 
 
 # Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 DATABASES = {
     'default': {

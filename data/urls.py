@@ -4,6 +4,7 @@ from .views import (
     HealthCheckView, LeagueViewSet, TeamViewSet, MatchViewSet,
     StandingViewSet, RoundViewSet, SeasonViewSet, update_match,)
 
+
 router = DefaultRouter()
 router.register(r'leagues', LeagueViewSet)
 router.register(r'teams', TeamViewSet)

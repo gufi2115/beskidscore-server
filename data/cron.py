@@ -2,24 +2,21 @@ from django_cron import CronJobBase, Schedule
 import logging
 from django.core.management import call_command
 from django.utils import timezone
-from django.utils.timezone import make_aware, get_current_timezone
-import json
-from django.shortcuts import get_object_or_404
+from django.utils.timezone import make_aware
 from datetime import datetime, timedelta, tzinfo
-from .models import MatchM, TeamM, LeagueM, SeasonM, StandingM, StandingEntryM
+from .models import MatchM, LeagueM, SeasonM
 
 logger = logging.getLogger(__name__)
 
 class SetMatchToLiveCronJob(CronJobBase):
-    # */5 * * * * /path/to/your/venv/bin/python /path/to/your/project/manage.py runcrons >> /tmp/cron.log 2>&1
     """
     Cron job to set matches to live status.
     Runs every minute.
     """
-    RUN_EVERY_MINS = 1  # Run every minute
+    RUN_EVERY_MINS = 1
 
     schedule = Schedule(run_every_mins=RUN_EVERY_MINS)
-    code = 'data.set_match_to_live_cron_job'  # Unique identifier for the cron job
+    code = 'data.set_match_to_live_cron_job'
 
     def do(self):
         now = datetime.now()
@@ -42,10 +39,10 @@ class UpdateStandingsCronJob(CronJobBase):
     Cron job to update standings.
     Runs every hour.
     """
-    RUN_EVERY_HOUR = 60  # Run every hour
+    RUN_EVERY_HOUR = 60
 
     schedule = Schedule(run_every_mins=RUN_EVERY_HOUR)
-    code = 'data.update_standings_cron_job'  # Unique identifier for the cron job
+    code = 'data.update_standings_cron_job'
 
     def do(self):
         league_obj = LeagueM.objects.all()

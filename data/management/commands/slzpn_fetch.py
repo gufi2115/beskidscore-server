@@ -1,9 +1,7 @@
 import json
-from email.policy import default
-from django.utils import timezone
 from django.core.management.base import BaseCommand
 import requests
-from datetime import datetime, date, timedelta
+from datetime import date, timedelta
 from data.models import MatchM, TeamM, LeagueM, SeasonM
 from data.helpers import update_league
 

@@ -1,9 +1,11 @@
 from rest_framework import mixins, viewsets
-from .serializers import BlogSerializer,CategoriesSerializer
-from .models import BlogM, CategoriesM
+from .serializers import BlogSerializer, CategoriesSerializer, BlogAttachmentSerializer
+from .models import BlogM, CategoriesM, BlogAttachmentM
 from django_filters.rest_framework import DjangoFilterBackend
 from .filters import BlogFilter
 from .permission import AdminOrReadOnlyPermission
+from rest_framework.response import Response
+from filesystempack.drf_filesystem.views import FileViewSet
 
 
 class BlogMViewSet(mixins.ListModelMixin,
@@ -18,14 +20,27 @@ class BlogMViewSet(mixins.ListModelMixin,
     filterset_class = BlogFilter
     permission_classes = (AdminOrReadOnlyPermission,)
 
+    def destroy(self, request, *args, **kwargs):
+        obj = self.get_object()
+        obj.is_deleted = True
+        obj.save()
+        return Response(status=204)
+
+
+class BlogAttachmentViewSet(FileViewSet):
+    queryset = BlogAttachmentM.objects.all()
+    serializer_class = BlogAttachmentSerializer
+
+    def get_queryset(self):
+        blog_pk = self.kwargs.get('blog_pk')
+        if blog_pk:
+            return BlogAttachmentM.objects.filter(blog_id=blog_pk)
+        return super().get_queryset()
+
     def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data, context={'request': request})
+        blog_pk = self.kwargs.get('blog_pk')
+        request.data['blog'] = blog_pk
         return super().create(request, *args, **kwargs)
-
-    def update(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data, context={'request': request})
-        return super().update(request, *args, **kwargs)
-
 
 class CategoriesViewSet(mixins.ListModelMixin,
                         mixins.CreateModelMixin,
@@ -36,12 +51,3 @@ class CategoriesViewSet(mixins.ListModelMixin,
     serializer_class = CategoriesSerializer
     permission_classes = (AdminOrReadOnlyPermission,)
 
-
-    def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data, context={'request': request})
-        return super().create(request, *args, **kwargs)
-
-
-    def update(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data, context={'request': request})
-        return super().update(request, *args, **kwargs)
